@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PtWq73pAVGuC8fYWCcV7o14mFSZPv5h8tKjIC5cbkk4=",
+  "Source": "flowers-web.WebApi",
+  "BasePath": "_content/flowers-web.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
