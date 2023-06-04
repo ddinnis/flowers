@@ -3246,11 +3246,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CodeProjects\\flowers-web\\flowers-web.Model\\flowers-web.Model.csproj",
+      "projectUniqueName": "D:\\CodeProjects\\flowers-web\\Backend\\flowers-web.Model\\flowers-web.Model.csproj",
       "projectName": "flowers-web.Model",
-      "projectPath": "D:\\CodeProjects\\flowers-web\\flowers-web.Model\\flowers-web.Model.csproj",
+      "projectPath": "D:\\CodeProjects\\flowers-web\\Backend\\flowers-web.Model\\flowers-web.Model.csproj",
       "packagesPath": "C:\\Users\\DING\\.nuget\\packages\\",
-      "outputPath": "D:\\CodeProjects\\flowers-web\\flowers-web.Model\\obj\\",
+      "outputPath": "D:\\CodeProjects\\flowers-web\\Backend\\flowers-web.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DING\\AppData\\Roaming\\NuGet\\NuGet.Config",

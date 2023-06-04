@@ -11,11 +11,16 @@
     </el-carousel>
   </div>
   <HomeContent />
+  <LoginComponent />
+  <RegisterComponent />
 </template>
 
 <script setup>
 import { ref, onMounted } from "vue";
 import HomeContent from "../components/HomeContent.vue";
+import LoginComponent from "../components/LoginComponent.vue";
+import RegisterComponent from "../components/RegisterComponent.vue";
+
 import { getBannersData } from "../api";
 
 const bannersData = ref("");

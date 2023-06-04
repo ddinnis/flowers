@@ -1,0 +1,12 @@
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\bin\Debug\net6.0\flowers-web.Model.deps.json
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\bin\Debug\net6.0\flowers-web.Model.dll
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\bin\Debug\net6.0\flowers-web.Model.pdb
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\obj\Debug\net6.0\flowers-web.Model.csproj.AssemblyReference.cache
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\obj\Debug\net6.0\flowers-web.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\obj\Debug\net6.0\flowers-web.Model.AssemblyInfoInputs.cache
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\obj\Debug\net6.0\flowers-web.Model.AssemblyInfo.cs
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\obj\Debug\net6.0\flowers-web.Model.csproj.CoreCompileInputs.cache
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\obj\Debug\net6.0\flowers-web.Model.dll
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\obj\Debug\net6.0\refint\flowers-web.Model.dll
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\obj\Debug\net6.0\flowers-web.Model.pdb
+D:\CodeProjects\flowers-web\Backend\flowers-web.Model\obj\Debug\net6.0\ref\flowers-web.Model.dll

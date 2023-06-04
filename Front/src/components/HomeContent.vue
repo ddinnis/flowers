@@ -14,16 +14,21 @@
         />
       </el-aside>
       <el-main>
-        <div class="img" v-for="item in 6" :key="item">
+        <div
+          class="flower-item"
+          v-for="item in flowersData"
+          :key="item.id"
+          @click="toFlowerDetail({ id: item.id, type: item.type })"
+        >
           <el-image
             style="width: 300px; height: 200px"
-            src="https://fuss10.elemecdn.com/a/3f/3302e58f9a181d2509f3dc0fa68b0jpeg.jpeg"
+            :src="item.image"
             :zoom-rate="1.2"
             fit="cover"
           />
           <div class="content">
-            <div class="title"></div>
-            <div class="price"></div>
+            <div class="title">{{ item.title }}</div>
+            <div class="price">{{ item.price }}</div>
           </div>
         </div>
       </el-main>
@@ -34,12 +39,21 @@
 <script setup>
 import { onMounted, ref } from "vue";
 import { getFlowersData } from "../api";
+import { useRouter } from "vue-router";
 
 const flowersData = ref("");
+
+const param = { Id: 0, Type: 0 };
 onMounted(async () => {
-  flowersData.value = await getFlowersData();
-  console.log("flowersData.value", flowersData.value);
+  await getFlowersData(param).then((res) => {
+    flowersData.value = res.data;
+  });
 });
+
+const router = useRouter();
+const toFlowerDetail = ({ id, type }) => {
+  router.push({ path: "/detail", query: { id, type } });
+};
 </script>
 
 <style lang="less" scoped>
@@ -52,7 +66,7 @@ onMounted(async () => {
   justify-content: space-around;
 }
 
-.img {
+.flower-item {
   display: inline-block;
   .el-image {
     display: flex;

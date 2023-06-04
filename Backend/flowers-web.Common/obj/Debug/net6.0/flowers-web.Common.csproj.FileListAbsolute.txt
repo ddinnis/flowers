@@ -1,0 +1,15 @@
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\bin\Debug\net6.0\flowers-web.Common.deps.json
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\bin\Debug\net6.0\flowers-web.Common.dll
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\bin\Debug\net6.0\flowers-web.Common.pdb
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\obj\Debug\net6.0\flowers-web.Common.csproj.AssemblyReference.cache
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\obj\Debug\net6.0\flowers-web.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\obj\Debug\net6.0\flowers-web.Common.AssemblyInfoInputs.cache
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\obj\Debug\net6.0\flowers-web.Common.AssemblyInfo.cs
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\obj\Debug\net6.0\flowers-web.Common.csproj.CoreCompileInputs.cache
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\obj\Debug\net6.0\flowers-web.Common.dll
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\obj\Debug\net6.0\refint\flowers-web.Common.dll
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\obj\Debug\net6.0\flowers-web.Common.pdb
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\obj\Debug\net6.0\ref\flowers-web.Common.dll
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\bin\Debug\net6.0\flowers-web.Model.dll
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\bin\Debug\net6.0\flowers-web.Model.pdb
+D:\CodeProjects\flowers-web\Backend\flowers-web.Common\obj\Debug\net6.0\flowers-web.Common.csproj.CopyComplete

@@ -15,4 +15,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\flowers-web.Common\flowers-web.Common.csproj" />
+    <ProjectReference Include="..\flowers-web.Model\flowers-web.Model.csproj" />
+    <ProjectReference Include="..\flowers-web.Service\flowers-web.Service.csproj" />
+  </ItemGroup>
+
 </Project>

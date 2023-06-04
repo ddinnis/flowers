@@ -10,13 +10,14 @@ const service = axios.create({
 
 service.interceptors.request.use(
   (config) => {
-    // if (store.getters.token) {
-    //config.headers["X-Token"] = getToken();
-    // }
+    const token = localStorage.getItem("token");
+    if (token) {
+      config.headers["Authorization"] = "Bearer " + token;
+    }
     return config;
   },
   (error) => {
-    console.log(error); // for debug
+    console.log(error);
     return Promise.reject(error);
   }
 );

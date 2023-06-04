@@ -1,10 +1,12 @@
 <template>
   <div class="container">
     <div class="links">
-      <el-link>登录</el-link>
-      <el-link>注册</el-link>
-      <el-link>个人中心</el-link>
-      <el-link>注销</el-link>
+      <el-link @click="handleLogin" v-if="!store.state.nickName">登录</el-link>
+      <el-link @click="handleRegister">注册</el-link>
+      <el-link>{{ store.state.nickName ?? "个人中心" }} </el-link>
+      <el-link v-if="!!store.state.nickName" @click="handleLogout"
+        >退出</el-link
+      >
     </div>
     <div class="content">
       <div class="logo">
@@ -39,12 +41,32 @@
 
 <script setup>
 import { ref } from "vue";
+import { useStore } from "vuex";
+import { ElMessage } from "element-plus";
 
 const url = ref(
   "https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"
 );
 const activeIndex = ref("/");
 const input = ref("");
+
+const store = useStore();
+const handleLogin = () => {
+  store.commit("openLogin");
+};
+
+const handleRegister = () => {
+  store.commit("openRegister");
+};
+
+const handleLogout = () => {
+  store.state.nickName = "";
+  localStorage.clear();
+  ElMessage({
+    message: "退出成功!",
+    type: "success",
+  });
+};
 </script>
 
 <style lang="less" scoped>
